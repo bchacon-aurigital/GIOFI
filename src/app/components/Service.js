@@ -18,11 +18,11 @@ const Service = () => {
     <div
       style={{
         backgroundImage: "url('/assets/bg-cta2.avif')",
-        backgroundPosition: "center",
+      
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className="grid lg:grid-cols-2 gap-4 lg:gap-6 pb-8 lg:pb-8 px-[5%] py-[5%] lg:px-[8%]"
+      className="grid lg:grid-cols-2 gap-4 lg:gap-6 px-[5%] py-[10%] lg:px-[8%]"
     >
       <div data-aos="fade-up">
         <img alt="TE ACOMPAÑAMOS EN durante EL PROCESO" src="/assets/fonts/TE ACOMPAÑAMOS EN durante EL PROCESO.svg" />
