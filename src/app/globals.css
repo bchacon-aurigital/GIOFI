@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: white;
+}
+
+
+.gradient-background {
+  background: 
+    radial-gradient(circle at top left, 
+      rgba(252, 240, 248, 0.8) 0%, 
+      rgba(59, 16, 216, 0.6) 55%
+    ),
+    radial-gradient(circle at bottom right, 
+      rgba(27, 248, 253, 0.5) 0%, 
+      rgba(159, 133, 243, 0.3) 66%, 
+      rgba(255, 255, 255, 0.2) 100%
+    ),
+    linear-gradient(135deg, 
+      rgba(59, 16, 216, 0.6) 0%, 
+      rgba(63, 21, 217, 0.4) 36%, 
+      rgba(254, 247, 248, 0.4) 100%
+    );
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+
+
+.about-gradient {
+  background: linear-gradient(
+    128.38deg,
+    #fcf0f8 2.64%,
+    rgba(206, 163, 247, 0.670531) 37.08%,
+    rgba(190, 137, 247, 0.56) 52.37%,
+    rgba(106, 87, 245, 0.5) 93.1%
+  );
+}
+
+/* styles.css */
+.hover-gradient {
+  transition: background 0.3s ease;
+}
+
+.hover-gradient:hover {
+  background: linear-gradient(
+    122.23deg,
+    #fcf0f8 5.68%,
+    #C799F2 38.56%,
+    #c599ee 72.69%,
+    #C799F2 96.81%
+  );
+}
+
+.gradient-text {
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(135deg, #3b10d8 0%, #3f15d9 41.5%, #fef7f8 100%),
+    radial-gradient(
+      90.56% 90.56% at 100% 4.95%,
+      #1bf8fd 0%,
+      rgba(28, 241, 252, 0.6) 33.81%,
+      rgba(159, 133, 243, 0.3) 66.14%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    radial-gradient(
+      41.76% 41.76% at 1.67% 16.67%,
+      rgba(59, 16, 216, 0.8) 0%,
+      rgba(59, 16, 216, 0) 100%
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.process-gradient {
+  background: linear-gradient(180deg, #9747ff 0%, #3f15d9 100%);
+}
