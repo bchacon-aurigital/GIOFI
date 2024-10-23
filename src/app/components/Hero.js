@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-import HeroAnim from "../../../public/assets/lottie/HeroAnim.json";
+import HeroAnim from "../../../public/assets/lottie/heroAnim.json";
 import Lottie from "react-lottie";
 
 const Hero = () => {
@@ -131,7 +131,7 @@ const Hero = () => {
         </div>
         <div className="lg:w-[80%] space-y-8 text-center">
           <img alt="" src="/assets/fonts/GioFIHero.svg" className="w-full mx-auto" />
-          <p className="text-sm md:text-[20px] lg:text-[27px] font-[500] leading-[28px] md:leading-[38px]">
+          <p className="text-sm md:text-[20px] lg:text-[27px] font-[300] leading-[28px] md:leading-[38px]">
             Simplifica y protege tus transacciones de canje de dinero,
             transferencias de fondos y administración de recursos con nuestra plataforma integrada.
           </p>

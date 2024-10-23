@@ -105,9 +105,7 @@ const Process = () => {
               3. Ejecución por parte de nuestro equipo especializado
             </h4>
             <p className="text-white text-[16px] lg:text-[18px]">
-              Nuestro equipo de expertos se encarga de llevar a cabo todas las
-              operaciones financieras, desde la administración de fideicomisos
-              hasta el canje de dinero y las transferencias internacionales.
+            Nuestro equipo de expertos se encarga de llevar a cabo todas las operaciones financieras, desde la administración de fideicomisos hasta el canje de dinero y las transferencias internacionales, garantizando un proceso ágil y seguro.
             </p>
           </div>
 
@@ -127,9 +125,7 @@ const Process = () => {
                 4. Supervisión y seguimiento continuo
               </h4>
               <p className="text-white text-[16px] lg:text-[18px]">
-                Nos aseguramos de que todas las operaciones se mantengan seguras
-                y eficientes mediante un monitoreo constante, brindándote soporte
-                personalizado para garantizar tu tranquilidad.
+              Nos aseguramos de que todas las operaciones se mantengan seguras y eficientes mediante un monitoreo constante, brindándote soporte personalizado para garantizar tu tranquilidad y satisfacción.
               </p>
             </div>
           </div>
