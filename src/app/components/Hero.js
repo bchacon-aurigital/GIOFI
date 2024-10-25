@@ -9,7 +9,7 @@ const Hero = () => {
   const [show, setShow] = useState(false);
   const [dropdownOpen1, setDropdownOpen1] = useState(false);
   const [dropdownOpen2, setDropdownOpen2] = useState(false);
-  const navItems = ["Inicio", "Características", "Solución", "Proceso", "Nosotros"];
+  const navItems = ["Inicio", "Características", "Solución", "Proceso", "App"];
 
   const defaultOptions = {
     loop: true,
@@ -45,7 +45,7 @@ const Hero = () => {
       <header className="flex justify-between w-full items-start py-4 lg:py-8">
         <div className="mx-auto md:mx-[5%]">
           <img
-            src="/assets/logo.png"
+            src="/assets/Logo.png"
             alt="Logo"
             className="h-10 a-auto md:h-14 lg:h-auto"
           />
@@ -170,7 +170,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="bg-transparent border-2 border-white text-white hover:border-[#28C0F5] hover:bg-[#28C0F5] duration-300 hover:text-white py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
+                <button className="bg-transparent border-2 border-white text-white hover:border-[#28C0F5] hover:bg-[#28C0F5] duration-300 hover:text-white py-2 md:py-4 px-2 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
                   Verificar Identidad
                 </button>
               </a>

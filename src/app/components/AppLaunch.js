@@ -9,7 +9,7 @@ const AppLaunch = () => {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center bg-[#F8EBF7] py-16 lg:py-24 px-8 lg:px-24">
+    <div id="app" className="flex flex-col lg:flex-row items-center justify-center bg-[#F8EBF7] py-16 lg:py-0 lg:pt-24 px-8 lg:px-24">
       <div
         className="flex flex-col items-center lg:items-start text-center lg:text-left lg:w-1/2 space-y-4 lg:ml-16"
         data-aos="fade-up"

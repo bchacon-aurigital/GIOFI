@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         
         <meta property="og:title" content="GIOFI - Operaciones finacieras eficientes y seguras" />
         <meta property="og:description" content="Simplifica y protege tus transacciones de canje de dinero, transferencias de fondos y administración de recursos" />
-        <meta property="og:image" content="/src/assets/logo.png" />
+        <meta property="og:image" content="/src/assets/Logo.png" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://GIOFI.io" />
 
