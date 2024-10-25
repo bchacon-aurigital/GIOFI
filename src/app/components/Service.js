@@ -15,14 +15,14 @@ const Service = () => {
   };
 
   return (
+    <div   style={{
+      backgroundImage: "url('/assets/bg-cta2.avif')",
+    
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+    }} className="flex justify-center">
     <div
-      style={{
-        backgroundImage: "url('/assets/bg-cta2.avif')",
-      
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
-      className="grid lg:grid-cols-2 gap-4 lg:gap-6 px-[5%] py-[10%] lg:px-[8%]"
+      className="grid lg:grid-cols-2 gap-4 lg:gap-6 px-[5%] py-[10%] lg:px-[8%] lg:max-w-[90%]"
     >
       <div data-aos="fade-up">
         <img alt="TE ACOMPAÑAMOS EN durante EL PROCESO" src="/assets/fonts/TE ACOMPAÑAMOS EN durante EL PROCESO.svg" />
@@ -63,7 +63,7 @@ const Service = () => {
         <img alt="" src="/assets/img3.avif" className="w-full lg:w-[60%] xl:w-[80%] 2xl:w-[90%]" />
       </div>
     </div>
-
+    </div>
   );
 };
 
