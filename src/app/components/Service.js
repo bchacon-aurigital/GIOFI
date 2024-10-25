@@ -32,7 +32,7 @@ const Service = () => {
         <div className="relative inline-block">
           <button
             onClick={toggleDropdown}
-            className="bg-[#C799F2] hover:bg-[#28C0F5] duration-300 hover:text-white text-white py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]"
+            className="bg-[#C799F2] hover:bg-[#28C0F5] mb-3 duration-300 hover:text-white text-white py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]"
           >
             Comenzar
           </button>
@@ -60,7 +60,7 @@ const Service = () => {
       </div>
 
       <div data-aos="fade-up" className="flex justify-center items-center h-full lg:h-auto">
-        <img alt="" src="/assets/img3.avif" className="w-full lg:w-[60%] xl:w-[70%] 2xl:w-[70%]" />
+        <img alt="" src="/assets/img3.avif" className="w-full lg:w-[60%] xl:w-[80%] 2xl:w-[90%]" />
       </div>
     </div>
 
