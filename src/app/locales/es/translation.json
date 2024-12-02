@@ -1,0 +1,132 @@
+{
+  "hero": {
+    "nav": [
+      "Inicio",
+      "Características",
+      "Solución",
+      "Proceso",
+      "App"
+    ],
+    "svg": {
+      "heroTitle": "/assets/fonts/GioFIHero.svg"
+    },
+    "start": "Comenzar",
+    "description": "Simplifica y protege tus transacciones de canje de dinero, transferencias de fondos y administración de recursos con nuestra plataforma integrada.",
+    "identityVerification": "Verificar Identidad",
+    "dropdown": {
+      "individual": "Individual",
+      "business": "Para Empresas"
+    }
+  },
+  "about": {
+    "ctaTitle": "Maneja todos tus activos digitales con GIOFI.",
+    "ctaSubtitle": "Estamos asociados con Galileo Capital para brindarte el mayor nivel de confianza y seguridad.",
+    "startButton": "Comenzar",
+    "partnerButton": "Galileo Capital",
+    "dropdown": {
+      "individual": "Individual",
+      "business": "Para Empresas"
+    }
+  },
+  "appLaunch": {
+    "comingSoon": "/assets/fonts/ComingSoon.svg",
+    "newApp": "/assets/fonts/Pronto conocerás nuestra nueva app.svg",
+    "description": "Administra todas tus operaciones financieras desde un solo lugar con nuestra aplicación móvil. Seguridad y conveniencia para tus activos digitales al alcance de tu mano.",
+    "appImageAlt": "App GIOFI"
+  },
+  "footer": {
+    "logoAlt": "Logo del Pie de Página",
+    "description": "Una nueva forma de hacer pagos de forma fácil, confiable y segura.",
+    "sections": {
+      "title": "GIOFI",
+      "home": "Inicio",
+      "features": "Características",
+      "solution": "Solución",
+      "process": "Proceso",
+      "aboutUs": "Nosotros"
+    },
+    "socialMedia": {
+      "title": "Redes Sociales",
+      "whatsapp": "Whatsapp",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "legal": {
+      "privacyPolicy": "Política de Privacidad",
+      "termsOfService": "Términos de Servicio"
+    },
+    "copyright": "2021 GalileoFi. Todos los derechos reservados.",
+    "design": {
+      "credit": "Diseño y Desarrollo por :",
+      "aurigitalAlt": "Logo de aurigital"
+    }
+  },
+  "features": {
+    "titleImage": "/assets/fonts/El desafío financiero.svg",
+    "description": "En un entorno donde las operaciones financieras pueden ser fragmentadas y costosas, GIOFI ofrece una solución integrada para el canje de dinero, transferencias de fondos y administración de fideicomisos y escrow, simplificando y asegurando todas tus operaciones financieras.",
+    "startButton": "Comenzar",
+    "dropdown": {
+      "individual": "Para Individuos",
+      "business": "Para Empresas"
+    },
+    "cards": [
+      {
+        "icon": "/assets/Icons/icon1.png",
+        "title": "Tecnología Financiera Avanzada",
+        "description": "Una plataforma automatizada para agilizar y proteger todas tus transacciones."
+      },
+      {
+        "icon": "/assets/Icons/icon2.png",
+        "title": "Seguridad Integral",
+        "description": "Protección robusta para asegurar que tus fondos estén siempre a salvo."
+      },
+      {
+        "icon": "/assets/Icons/icon3.png",
+        "title": "Administración Centralizada",
+        "description": "Gestiona todos tus recursos desde un solo lugar, con mayor control y eficiencia."
+      }
+    ]
+  },
+  "process": {
+    "step1": {
+      "title": "1. Evaluamos tus necesidades específicas",
+      "description": "Comenzamos con un análisis detallado de tus necesidades financieras y operativas, identificando los desafíos específicos que enfrentas en la gestión de recursos y transferencias de fondos."
+    },
+    "step2": {
+      "title": "2. Propuesta de servicios adaptados",
+      "description": "Con base en la evaluación, desarrollamos una propuesta personalizada que integra soluciones eficientes y seguras, optimizadas para cumplir con tus objetivos."
+    },
+    "step3": {
+      "title": "3. Ejecución por parte de nuestro equipo especializado",
+      "description": "Nuestro equipo de expertos se encarga de llevar a cabo todas las operaciones financieras, desde la administración de fideicomisos hasta el canje de dinero y las transferencias internacionales, garantizando un proceso ágil y seguro."
+    },
+    "step4": {
+      "title": "4. Supervisión y seguimiento continuo",
+      "description": "Nos aseguramos de que todas las operaciones se mantengan seguras y eficientes mediante un monitoreo constante, brindándote soporte personalizado para garantizar tu tranquilidad y satisfacción."
+    }
+  },
+  "security": {
+    "titleImageAlt": "Menos Fragmentación y Más Eficiencia",
+    "titleImage": "/assets/fonts/Menos Fragmentación y Más Eficiencia.svg",
+    "description": "GIOFI integra todas tus operaciones financieras en una sola plataforma, minimizando los costos y aumentando la seguridad en cada transacción.",
+    "logoAlt": "Logo",
+    "mainImageAlt": "Imagen de Seguridad"
+  },
+  "service": {
+    "titleImageAlt": "TE ACOMPAÑAMOS EN durante EL PROCESO",
+    "titleImage": "/assets/fonts/TE ACOMPAÑAMOS EN durante EL PROCESO.svg",
+    "description": "Nuestro equipo de expertos en tecnología y finanzas está listo para asistirte desde la implementación hasta el soporte continuo.",
+    "startButton": "Comenzar",
+    "dropdown": {
+      "individual": "Para Individuos",
+      "business": "Para Empresas"
+    },
+    "backgroundAlt": "Fondo del Servicio",
+    "mainImageAlt": "Ilustración del Servicio"
+  },
+  "solution": {
+    "titleImageAlt": "ASÓCIATE CON GIOFI Y EXPERIMENTA LA NUEVA ERA DE LA GESTIÓN FINANCIERA",
+    "titleImage": "/assets/fonts/ASÓCIATE CON giofi Y EXPERIMENTA LA NUEVA ERA DE LA GESTIÓN FINANCIERA..svg",
+    "animationAlt": "Animación Financiera"
+  }
+}

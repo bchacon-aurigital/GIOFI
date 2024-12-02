@@ -1,8 +1,8 @@
 "use client";
 import dynamic from "next/dynamic";
+import LanguageSwitcher from "./components/LanguageSwitcher";
 import { I18nextProvider } from "react-i18next";
-import i18n from "./i18n";
-import { useTranslation } from "react-i18next";
+import i18n from "./i18n"; 
 
 const DynamicHero = dynamic(() => import("./components/Hero"), { ssr: false });
 const DynamicChallenge = dynamic(() => import("./components/Features"), {
@@ -34,6 +34,8 @@ const DynamicFooter = dynamic(() => import("./components/Footer"), {
 export default function Home() {
   return (
     <div>
+      <I18nextProvider i18n={i18n}>
+      <LanguageSwitcher />
       <DynamicHero />
       <DynamicChallenge />
       <DynamicPartner />
@@ -43,6 +45,7 @@ export default function Home() {
       <DynamicAppLaunch />
       <DynamicAbout />
       <DynamicFooter />
+      </I18nextProvider>
     </div>
   );
 }

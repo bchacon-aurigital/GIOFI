@@ -1,23 +1,26 @@
 "use client";
 import React, { useState } from "react";
-
+import { useTranslation } from "react-i18next";
 import HeroAnim from "../../../public/assets/lottie/heroAnim.json";
 import Lottie from "react-lottie";
 
 const Hero = () => {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(0);
   const [show, setShow] = useState(false);
   const [dropdownOpen1, setDropdownOpen1] = useState(false);
   const [dropdownOpen2, setDropdownOpen2] = useState(false);
-  const navItems = ["Inicio", "Características", "Solución", "Proceso", "App"];
+
+  const navItems = t("hero.nav", { returnObjects: true });
+  const svgPaths = t("hero.svg", { returnObjects: true });
 
   const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: HeroAnim,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
+      preserveAspectRatio: "xMidYMid slice"
+    }
   };
 
   const handleNavClick = (index, sectionId) => {
@@ -42,7 +45,7 @@ const Hero = () => {
 
   return (
     <div id="inicio" className="relative text-white gradient-background pb-[10%] overflow-hidden">
-      <header className="flex justify-between w-full items-start py-4 lg:py-8">
+      <header className="flex justify-between w-full items-start py-4 lg:py-10">
         <div className="mx-auto md:mx-[5%]">
           <img
             src="/assets/Logo.png"
@@ -55,11 +58,8 @@ const Hero = () => {
             {navItems.map((item, index) => (
               <li
                 key={index}
-                className={`nav-item ${activeIndex === index ? "" : "text-white/70 text-[16px]"
-                  }`}
-                onClick={() =>
-                  handleNavClick(index, item.toLowerCase().replace(/ /g, "-"))
-                }
+                className={`nav-item ${activeIndex === index ? "" : "text-white/70 text-[16px]"}`}
+                onClick={() => handleNavClick(index, item.toLowerCase().replace(/ /g, "-"))}
               >
                 {item}
               </li>
@@ -70,7 +70,7 @@ const Hero = () => {
               onClick={toggleDropdown1}
               className="w-full bg-[#C799F2] border-2 border-[#C799F2] hover:bg-[#28C0F5] hover:border-[#28C0F5] duration-300 hover:text-white text-white py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]"
             >
-              Comenzar
+              {t("hero.start")}
             </button>
             {dropdownOpen1 && (
               <div className="absolute top-full mt-2 bg-white rounded-lg shadow-lg z-10">
@@ -80,7 +80,7 @@ const Hero = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Individual
+                  {t("hero.dropdown.individual")}
                 </a>
                 <a
                   href="https://form.jotform.com/242172269063455"
@@ -88,7 +88,7 @@ const Hero = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Para Empresas
+                  {t("hero.dropdown.business")}
                 </a>
               </div>
             )}
@@ -105,17 +105,14 @@ const Hero = () => {
         </div>
         <div className="absolute lg:hidden">
           <div
-            className={`${show === true ? "block" : "hidden"
-              } fixed z-50 top-20 about-gradient right-5 backdrop-blur-lg py-4 px-5 rounded-lg`}
+            className={`${show === true ? "block" : "hidden"} fixed z-50 top-20 about-gradient right-5 backdrop-blur-lg py-4 px-5 rounded-lg`}
           >
             <ul className="text-[15px] space-y-3 cursor-pointer gap-[50px] font-[700]">
               {navItems.map((item, index) => (
                 <li
                   key={index}
                   className={`nav-item`}
-                  onClick={() =>
-                    handleNavClick(index, item.toLowerCase().replace(/ /g, "-"))
-                  }
+                  onClick={() => handleNavClick(index, item.toLowerCase().replace(/ /g, "-"))}
                 >
                   {item}
                 </li>
@@ -130,10 +127,9 @@ const Hero = () => {
           <Lottie options={defaultOptions} />
         </div>
         <div className="lg:w-[80%] space-y-8 text-center">
-          <img alt="" src="/assets/fonts/GioFIHero.svg" className="w-full mx-auto" />
+          <img alt="" src={svgPaths.heroTitle} className="w-full mx-auto" />
           <p className="text-sm md:text-[20px] lg:text-[27px] font-[300] leading-[28px] md:leading-[38px]">
-            Simplifica y protege tus transacciones de canje de dinero,
-            transferencias de fondos y administración de recursos con nuestra plataforma integrada.
+            {t("hero.description")}
           </p>
           <div className="flex justify-center space-x-4">
             <div className="relative inline-block">
@@ -141,28 +137,8 @@ const Hero = () => {
                 onClick={toggleDropdown2}
                 className="w-full bg-[#C799F2] border-2 border-[#C799F2] hover:bg-[#28C0F5] hover:border-[#28C0F5] duration-300 hover:text-white text-white py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]"
               >
-                Comenzar
+                {t("hero.start")}
               </button>
-              {dropdownOpen2 && (
-                <div className="absolute top-full mt-2 bg-white rounded-lg shadow-lg z-10">
-                  <a
-                    href="https://form.jotform.com/242172184154452"
-                    className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Individual
-                  </a>
-                  <a
-                    href="https://form.jotform.com/242172269063455"
-                    className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Para Empresas
-                  </a>
-                </div>
-              )}
             </div>
             <div className="relative inline-block">
               <a
@@ -171,7 +147,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
               >
                 <button className="bg-transparent border-2 border-white text-white hover:border-[#28C0F5] hover:bg-[#28C0F5] duration-300 hover:text-white py-2 md:py-4 px-2 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
-                  Verificar Identidad
+                  {t("hero.identityVerification")}
                 </button>
               </a>
             </div>

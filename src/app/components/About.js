@@ -1,16 +1,18 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import CTAnim from "../../../public/assets/lottie/CTA-anim.json";
 import Lottie from "react-lottie";
 
 const About = () => {
+  const { t } = useTranslation(); // Hook para traducción
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
   useEffect(() => {
     AOS.init({ duration: 9000 });
   }, []);
-
-  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
@@ -21,17 +23,16 @@ const About = () => {
     autoplay: true,
     animationData: CTAnim,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
+      preserveAspectRatio: "xMidYMid slice"
+    }
   };
 
   return (
-
     <div
       id="nosotros"
-      className="bg-[#F8EBF7] gap-[2%] px-[3%] lg:px-[10%] md:py-[5%] pb-[8%] "
+      className="bg-[#F8EBF7] gap-[2%] px-[3%] lg:px-[10%] md:py-[5%] pb-[8%]"
     >
-      {/*<div
+       {/*<div
         data-aos="fade-up"
         data-aos-delay="500"
         className="grid py-8 md:py-0 md:grid-cols-2 items-center gap-[12%]"
@@ -70,13 +71,12 @@ const About = () => {
           <p className="mt-4 text-[20px] font-bold text-[#4332d8]">Eduardo L., Inversionista</p>
         </div>
       </div>*/}
-
       <div
         data-aos="fade-up"
         data-aos-delay="100"
         className="bg-cover bg-center lg:py-[4%] md:my-0 flex flex-col md:flex-row items-center gap-[2%] p-4 rounded-[20px]"
         style={{
-          backgroundImage: "url('/assets/bg-cta.avif')",
+          backgroundImage: "url('/assets/bg-cta.avif')"
         }}
       >
         <div className="md:w-[18%] ml-[2%]">
@@ -86,24 +86,24 @@ const About = () => {
           />
         </div>
 
-
         <div>
           <h3 className="text-[30px] lg:text-[36px] text-center md:text-start leading-[36px] lg:leading-[67px] font-[600]">
-            Maneja todos tus activos digitales con GIOFI.          </h3>
+            {t("about.ctaTitle")}
+          </h3>
           <h3 className="text-[20px] lg:text-[22px] text-center md:text-start leading-[28px] lg:leading-[20px] font-[400]">
-            Estamos asociados con Galileo Capital para brindarte el mayor nivel de confianza y seguridad.
+            {t("about.ctaSubtitle")}
           </h3>
           <div className="flex items-center justify-center md:justify-start md:items-start relative">
             <button
               onClick={toggleDropdown}
               className="mt-6 bg-[#C799F2] text-white py-4 px-5 lg:px-9 rounded-full text-[17px] font-[500] hover:bg-[#28C0F5] duration-300 hover:text-white"
             >
-              Comenzar
+              {t("about.startButton")}
             </button>
             <button
               className="mt-6 ml-4 bg-transparent border-2 border-[#28C0F5] text-[#28C0F5] py-4 px-3 md:px-9 rounded-full text-[17px] font-[500] hover:bg-[#28C0F5] duration-300 hover:text-white"
             >
-              Galileo Capital
+              {t("about.partnerButton")}
             </button>
             {dropdownOpen && (
               <div className="absolute top-full mt-2 bg-white rounded-lg shadow-lg z-10">
@@ -113,7 +113,7 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Individual
+                  {t("about.dropdown.individual")}
                 </a>
                 <a
                   href="https://form.jotform.com/242172269063455"
@@ -121,7 +121,7 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Para Empresas
+                  {t("about.dropdown.business")}
                 </a>
               </div>
             )}

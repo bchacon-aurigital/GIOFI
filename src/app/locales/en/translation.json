@@ -1,0 +1,132 @@
+{
+  "hero": {
+    "nav": [
+      "Home",
+      "Features",
+      "Solution",
+      "Process",
+      "App"
+    ],
+    "svg": {
+      "heroTitle": "/assets/fonts/Efficient and Secure Financial Operations with GIoFI.svg"
+    },
+    "start": "Start",
+    "description": "Simplify and protect your money exchange transactions, fund transfers, and resource management with our integrated platform.",
+    "identityVerification": "Verify Identity",
+    "dropdown": {
+      "individual": "Individual",
+      "business": "For Business"
+    }
+  },
+  "about": {
+    "ctaTitle": "Manage all your digital assets with GIOFI.",
+    "ctaSubtitle": "We are partnered with Galileo Capital to provide the highest level of trust and security.",
+    "startButton": "Start",
+    "partnerButton": "Galileo Capital",
+    "dropdown": {
+      "individual": "Individual",
+      "business": "For Business"
+    }
+  },
+  "appLaunch": {
+    "comingSoon": "/assets/fonts/ComingSoon.svg",
+    "newApp": "/assets/fonts/Discover our new app soon.svg",
+    "description": "Manage all your financial operations from one place with our mobile app. Security and convenience for your digital assets at your fingertips.",
+    "appImageAlt": "GIOFI App"
+  },
+  "footer": {
+    "logoAlt": "Footer Logo",
+    "description": "A new way to make payments easily, reliably, and securely.",
+    "sections": {
+      "title": "GIOFI",
+      "home": "Home",
+      "features": "Features",
+      "solution": "Solution",
+      "process": "Process",
+      "aboutUs": "About Us"
+    },
+    "socialMedia": {
+      "title": "Social Media",
+      "whatsapp": "Whatsapp",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "legal": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "copyright": "2021 GalileoFi. All Rights Reserved.",
+    "design": {
+      "credit": "Design and Development by :",
+      "aurigitalAlt": "aurigital logo"
+    }
+  },
+  "features": {
+    "titleImage": "/assets/fonts/THE FINANCIAL CHALLENGE_ COMPLEXITY & SECURITY.svg",
+    "description": "In an environment where financial operations can be fragmented and costly, GIOFI offers an integrated solution for money exchange, fund transfers, and trust and escrow management, simplifying and securing all your financial operations.",
+    "startButton": "Start",
+    "dropdown": {
+      "individual": "For Individuals",
+      "business": "For Businesses"
+    },
+    "cards": [
+      {
+        "icon": "/assets/Icons/icon1.png",
+        "title": "Advanced Financial Technology",
+        "description": "An automated platform to streamline and secure all your transactions."
+      },
+      {
+        "icon": "/assets/Icons/icon2.png",
+        "title": "Comprehensive Security",
+        "description": "Robust protection to ensure your funds are always safe."
+      },
+      {
+        "icon": "/assets/Icons/icon3.png",
+        "title": "Centralized Management",
+        "description": "Manage all your resources from one place, with greater control and efficiency."
+      }
+    ]
+  },
+  "process": {
+    "step1": {
+      "title": "1. We assess your specific needs",
+      "description": "We start with a detailed analysis of your financial and operational needs, identifying specific challenges you face in resource management and fund transfers."
+    },
+    "step2": {
+      "title": "2. Tailored service proposal",
+      "description": "Based on the assessment, we develop a personalized proposal that integrates efficient and secure solutions optimized to meet your objectives."
+    },
+    "step3": {
+      "title": "3. Execution by our specialized team",
+      "description": "Our team of experts handles all financial operations, from trust management to currency exchange and international transfers, ensuring an agile and secure process."
+    },
+    "step4": {
+      "title": "4. Continuous monitoring and supervision",
+      "description": "We ensure all operations remain secure and efficient through constant monitoring, providing you with personalized support to guarantee your peace of mind and satisfaction."
+    }
+  },
+  "security": {
+    "titleImageAlt": "Less Fragmentation, More Efficiency",
+    "titleImage": "/assets/fonts/Less Fragmentation and More Efficiency.svg",
+    "description": "GIOFI integrates all your financial operations into a single platform, minimizing costs and increasing security in every transaction.",
+    "logoAlt": "Logo",
+    "mainImageAlt": "Security Image"
+  },
+  "service": {
+    "titleImageAlt": "We Support You During the Process",
+    "titleImage": "/assets/fonts/WE SUPPORT YOU THROUGHOUT THE PROCESS.svg",
+    "description": "Our team of technology and finance experts is ready to assist you from implementation to continuous support.",
+    "startButton": "Start",
+    "dropdown": {
+      "individual": "For Individuals",
+      "business": "For Business"
+    },
+    "backgroundAlt": "Service Background",
+    "mainImageAlt": "Service Illustration"
+  },
+  "solution": {
+    "titleImageAlt": "Partner with GIOFI and Experience the New Era of Financial Management",
+    "titleImage": "/assets/fonts/PARTNER WITH giofi AND EXPERIENCE THE NEW ERA OF FINANCIAL MANAGEMENT.svg",
+    "animationAlt": "Financial Animation"
+  }
+}
