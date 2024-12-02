@@ -1,5 +1,8 @@
 "use client";
 import dynamic from "next/dynamic";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
+import { useTranslation } from "react-i18next";
 
 const DynamicHero = dynamic(() => import("./components/Hero"), { ssr: false });
 const DynamicChallenge = dynamic(() => import("./components/Features"), {
