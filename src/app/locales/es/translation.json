@@ -31,11 +31,9 @@
   "appLaunch": {
     "comingSoon": "/assets/fonts/ComingSoon.svg",
     "newApp": "/assets/fonts/Pronto conocerás nuestra nueva app.svg",
-    "description": "Administra todas tus operaciones financieras desde un solo lugar con nuestra aplicación móvil. Seguridad y conveniencia para tus activos digitales al alcance de tu mano.",
-    "appImageAlt": "App GIOFI"
-  },
+    "description": "Administra todas tus operaciones financieras desde un solo lugar con nuestra aplicación móvil. Seguridad y conveniencia para tus activos digitales al alcance de tu mano."
+    },
   "footer": {
-    "logoAlt": "Logo del Pie de Página",
     "description": "Una nueva forma de hacer pagos de forma fácil, confiable y segura.",
     "sections": {
       "title": "GIOFI",

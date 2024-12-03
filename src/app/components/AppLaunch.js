@@ -46,7 +46,7 @@ const AppLaunch = () => {
         <div className="w-[300px] lg:w-[350px] flex justify-center items-center p-4">
           <img
             src="/assets/AppMovile.svg"
-            alt={t("appLaunch.appImageAlt")} // Texto alternativo dinámico
+            alt="App GIOFI"
             className="w-full h-auto mx-auto"
           />
         </div>

@@ -20,7 +20,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center py-[2%]">
         <div className="flex md:w-[30%] mb-12 md:mb-0 text-start flex-col items-start">
           <img
-            alt={t("footer.logoAlt")}
+            alt="Footer logo"
             src="/assets/fonts/FooterLogo.svg"
           />
           <p className="text-white pt-6 text-[18px]">
