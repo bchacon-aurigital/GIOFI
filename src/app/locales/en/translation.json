@@ -5,7 +5,7 @@
       "Features",
       "Solution",
       "Process",
-      "App"
+      "About Us"
     ],
     "svg": {
       "heroTitle": "/assets/fonts/Efficient and Secure Financial Operations with GIoFI.svg"
@@ -28,11 +28,6 @@
       "business": "For Business"
     }
   },
-  "appLaunch": {
-    "comingSoon": "/assets/fonts/ComingSoon.svg",
-    "newApp": "/assets/fonts/Discover our new app soon.svg",
-    "description": "Manage all your financial operations from one place with our mobile app. Security and convenience for your digital assets at your fingertips."
-  },
   "footer": {
     "description": "A new way to make payments easily, reliably, and securely.",
     "sections": {
@@ -43,17 +38,20 @@
       "process": "Process",
       "aboutUs": "About Us"
     },
-    "socialMedia": {
-      "title": "Social Media",
-      "whatsapp": "Whatsapp",
-      "instagram": "Instagram",
-      "facebook": "Facebook"
+    "contact": {
+      "title": "Contact Us",
+      "name": "Full name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "Please fill in all fields"
     },
     "legal": {
       "privacyPolicy": "Privacy Policy",
       "termsOfService": "Terms of Service"
     },
-    "copyright": "2021 GalileoFi. All Rights Reserved.",
+    "copyright": "2024 GalileoFi. All Rights Reserved.",
     "design": {
       "credit": "Design and Development by :",
       "aurigitalAlt": "aurigital logo"
@@ -61,6 +59,7 @@
   },
   "features": {
     "titleImage": "/assets/fonts/THE FINANCIAL CHALLENGE_ COMPLEXITY & SECURITY.svg",
+    "titleImageAlt": "The Financial Challenge: Complexity & Security",
     "description": "In an environment where financial operations can be fragmented and costly, GIOFI offers an integrated solution for money exchange, fund transfers, and trust and escrow management, simplifying and securing all your financial operations.",
     "startButton": "Start",
     "dropdown": {

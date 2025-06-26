@@ -2,11 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  color: white;
+/* Variables CSS para mejor rendimiento y mantenibilidad */
+:root {
+  --primary-purple: #C799F2;
+  --primary-blue: #28C0F5;
+  --secondary-purple: #9C6CF0;
+  --background-light: #F8EBF7;
+  --text-dark: #323232;
+  --text-medium: #4A4A4A;
+  --text-light: #666;
+  --border-light: rgba(255, 255, 255, 0.2);
+  --shadow-light: rgba(0, 0, 0, 0.1);
 }
 
+/* Reset básico optimizado */
+* {
+  color: white;
+  box-sizing: border-box;
+}
 
+/* Optimización de fuentes */
+html {
+  font-display: swap;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Gradientes optimizados con better-color-stops */
 .gradient-background {
   background: 
     radial-gradient(circle at top left, 
@@ -24,36 +51,40 @@
       rgba(254, 247, 248, 0.4) 100%
     );
   background-blend-mode: overlay;
+  background-attachment: fixed;
   background-size: cover;
+  will-change: transform;
 }
-
-
 
 .about-gradient {
   background: linear-gradient(
     128.38deg,
     #fcf0f8 2.64%,
-    rgba(206, 163, 247, 0.670531) 37.08%,
+    rgba(206, 163, 247, 0.67) 37.08%,
     rgba(190, 137, 247, 0.56) 52.37%,
     rgba(106, 87, 245, 0.5) 93.1%
   );
 }
 
-/* styles.css */
+/* Hover effects optimizados con GPU acceleration */
 .hover-gradient {
-  transition: background 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: background, transform;
 }
 
 .hover-gradient:hover {
   background: linear-gradient(
     122.23deg,
     #fcf0f8 5.68%,
-    #C799F2 38.56%,
+    var(--primary-purple) 38.56%,
     #c599ee 72.69%,
-    #C799F2 96.81%
+    var(--primary-purple) 96.81%
   );
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px var(--shadow-light);
 }
 
+/* Gradiente de texto optimizado */
 .gradient-text {
   background: linear-gradient(0deg, #ffffff, #ffffff),
     linear-gradient(135deg, #3b10d8 0%, #3f15d9 41.5%, #fef7f8 100%),
@@ -63,17 +94,94 @@
       rgba(28, 241, 252, 0.6) 33.81%,
       rgba(159, 133, 243, 0.3) 66.14%,
       rgba(255, 255, 255, 0) 100%
-    ),
-    radial-gradient(
-      41.76% 41.76% at 1.67% 16.67%,
-      rgba(59, 16, 216, 0.8) 0%,
-      rgba(59, 16, 216, 0) 100%
     );
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
 .process-gradient {
   background: linear-gradient(180deg, #9747ff 0%, #3f15d9 100%);
+}
+
+/* Optimizaciones de performance */
+.nav-item {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  transform: translateY(-1px);
+}
+
+/* Mejoras de accesibilidad */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+/* Optimización de imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Animaciones optimizadas */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Responsive design optimizado */
+@media (max-width: 768px) {
+  .gradient-background {
+    background-attachment: scroll;
+  }
+}
+
+/* Optimización para pantallas de alta densidad */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .gradient-background {
+    background-size: 100% 100%;
+  }
+}
+
+/* Prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

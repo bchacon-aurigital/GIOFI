@@ -5,7 +5,7 @@
       "Características",
       "Solución",
       "Proceso",
-      "App"
+      "Nosotros"
     ],
     "svg": {
       "heroTitle": "/assets/fonts/GioFIHero.svg"
@@ -28,11 +28,6 @@
       "business": "Para Empresas"
     }
   },
-  "appLaunch": {
-    "comingSoon": "/assets/fonts/ComingSoon.svg",
-    "newApp": "/assets/fonts/Pronto conocerás nuestra nueva app.svg",
-    "description": "Administra todas tus operaciones financieras desde un solo lugar con nuestra aplicación móvil. Seguridad y conveniencia para tus activos digitales al alcance de tu mano."
-    },
   "footer": {
     "description": "Una nueva forma de hacer pagos de forma fácil, confiable y segura.",
     "sections": {
@@ -43,17 +38,20 @@
       "process": "Proceso",
       "aboutUs": "Nosotros"
     },
-    "socialMedia": {
-      "title": "Redes Sociales",
-      "whatsapp": "Whatsapp",
-      "instagram": "Instagram",
-      "facebook": "Facebook"
+    "contact": {
+      "title": "Contáctanos",
+      "name": "Nombre completo",
+      "email": "Email",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje",
+      "success": "¡Mensaje enviado correctamente!",
+      "error": "Por favor completa todos los campos"
     },
     "legal": {
       "privacyPolicy": "Política de Privacidad",
       "termsOfService": "Términos de Servicio"
     },
-    "copyright": "2021 GalileoFi. Todos los derechos reservados.",
+    "copyright": "2024 GalileoFi. Todos los derechos reservados.",
     "design": {
       "credit": "Diseño y Desarrollo por :",
       "aurigitalAlt": "Logo de aurigital"
@@ -61,6 +59,7 @@
   },
   "features": {
     "titleImage": "/assets/fonts/El desafío financiero.svg",
+    "titleImageAlt": "El Desafío Financiero: Complejidad y Seguridad",
     "description": "En un entorno donde las operaciones financieras pueden ser fragmentadas y costosas, GIOFI ofrece una solución integrada para el canje de dinero, transferencias de fondos y administración de fideicomisos y escrow, simplificando y asegurando todas tus operaciones financieras.",
     "startButton": "Comenzar",
     "dropdown": {
