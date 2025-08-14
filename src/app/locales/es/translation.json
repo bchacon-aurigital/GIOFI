@@ -20,7 +20,7 @@
   },
   "about": {
     "ctaTitle": "Maneja todos tus activos digitales con GIOFI.",
-    "ctaSubtitle": "Estamos asociados con Galileo Capital para brindarte el mayor nivel de confianza y seguridad.",
+    "ctaSubtitle": "Trabajamos conjuntamente con el Banco Central de Costa Rica y estamos registrados legalmente en Costa Rica para brindarte el mayor nivel de confianza y seguridad.",
     "startButton": "Comenzar",
     "partnerButton": "Galileo Capital",
     "dropdown": {
@@ -51,7 +51,7 @@
       "privacyPolicy": "Política de Privacidad",
       "termsOfService": "Términos de Servicio"
     },
-    "copyright": "2024 GalileoFi. Todos los derechos reservados.",
+    "copyright": "2025 GalileoFi. Todos los derechos reservados.",
     "design": {
       "credit": "Diseño y Desarrollo por :",
       "aurigitalAlt": "Logo de aurigital"
@@ -125,5 +125,172 @@
     "titleImageAlt": "ASÓCIATE CON GIOFI Y EXPERIMENTA LA NUEVA ERA DE LA GESTIÓN FINANCIERA",
     "titleImage": "/assets/fonts/ASÓCIATE CON giofi Y EXPERIMENTA LA NUEVA ERA DE LA GESTIÓN FINANCIERA..svg",
     "animationAlt": "Animación Financiera"
+  },
+  "common": {
+    "backToHome": "Volver al Inicio",
+    "allRightsReserved": "Todos los derechos reservados"
+  },
+  "privacyPolicy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización",
+    "updateDate": "14 de agosto de 2025",
+    "intro": "Esta política de privacidad para Galileo International Capital Funds SA (\"Compañía\", \"nosotros\", \"nuestro\") describe cómo y por qué podríamos recopilar, almacenar, usar y/o compartir (\"procesar\") su información cuando utiliza nuestros servicios.",
+    "contact": "Si tiene preguntas o inquietudes, la lectura de esta política de privacidad le ayudará a entender sus derechos y opciones de privacidad. Si no está de acuerdo con nuestras políticas y prácticas, por favor no utilice nuestros servicios. Si aún tiene alguna pregunta o inquietud, contáctenos en info@galileocapital.io.",
+    "summaryTitle": "Resumen de Puntos Clave",
+    "summary": {
+      "personalInfoTitle": "¿Qué información personal procesamos?",
+      "personalInfo": "Cuando visita, usa o navega por nuestros servicios, podemos procesar información personal dependiendo de cómo interactúa con nuestros servicios, las elecciones que hace y los productos y características que usa.",
+      "sensitiveInfoTitle": "¿Procesamos información personal sensible?",
+      "sensitiveInfo": "Podemos procesar información personal sensible cuando sea necesario con su consentimiento o según lo permita la ley aplicable.",
+      "thirdPartyTitle": "¿Recibimos información de terceros?",
+      "thirdParty": "Podemos recibir información de bases de datos públicas, socios de marketing, plataformas de redes sociales y otras fuentes externas.",
+      "securityTitle": "¿Cómo mantenemos segura su información?",
+      "security": "Tenemos procesos y procedimientos organizacionales y técnicos para proteger su información personal. Sin embargo, no se puede garantizar que sea 100% segura."
+    },
+    "informationCollection": {
+      "title": "¿Qué información recopilamos?",
+      "personalDataTitle": "Información personal que nos proporciona",
+      "personalDataDesc": "Recopilamos información personal que nos proporciona voluntariamente cuando se registra en los servicios, expresa interés en obtener información sobre nosotros o nuestros productos y servicios, cuando participa en actividades en los servicios o cuando se comunica con nosotros.",
+      "dataTypes": {
+        "names": "Nombres",
+        "phones": "Números de teléfono",
+        "emails": "Direcciones de correo electrónico",
+        "addresses": "Direcciones de domicilio",
+        "walletAddresses": "Direcciones de billetera"
+      },
+      "sensitiveDataTitle": "Información sensible",
+      "sensitiveDataDesc": "Cuando sea necesario, con su consentimiento o según lo permita la ley aplicable, procesamos las siguientes categorías de información sensible:",
+      "sensitiveTypes": {
+        "government": "Números de seguridad social u otros identificadores gubernamentales",
+        "financial": "Datos financieros",
+        "biometric": "Datos biométricos"
+      }
+    },
+    "informationProcessing": {
+      "title": "¿Cómo procesamos su información?",
+      "description": "Procesamos su información personal por diversas razones, dependiendo de cómo interactúe con nuestros servicios, incluyendo:",
+      "purposes": {
+        "accountManagement": "Para facilitar la creación y autenticación de cuentas y administrar las cuentas de usuario",
+        "orderFulfillment": "Para cumplir y gestionar sus pedidos, pagos, devoluciones e intercambios",
+        "fraudPrevention": "Para detectar y prevenir fraude y/o pérdida de fondos",
+        "customerService": "Para proporcionar servicio al cliente cuando se comunique con nosotros",
+        "legalCompliance": "Para mantener el cumplimiento legal y regulatorio"
+      }
+    },
+    "informationSharing": {
+      "title": "¿Cuándo y con quién compartimos información personal?",
+      "description": "Podemos compartir información en situaciones específicas y con terceros específicos, incluyendo:",
+      "thirdPartyTitle": "Proveedores de servicios de terceros",
+      "passbase": "Para verificar su identidad determinando si una selfie que toma coincide con la foto de su documento de identificación emitido por el gobierno",
+      "jotform": "Para salvaguardar su información personal, incluyendo nombre completo, dirección, fecha de nacimiento, información financiera y firma"
+    },
+    "yourRights": {
+      "title": "¿Cuáles son sus derechos?",
+      "accessTitle": "Derecho de acceso",
+      "access": "Tiene derecho a solicitar acceso a la información personal que tenemos sobre usted",
+      "correctionTitle": "Derecho de corrección",
+      "correction": "Puede solicitar que corrijamos cualquier información personal inexacta o incompleta",
+      "deletionTitle": "Derecho de eliminación",
+      "deletion": "Puede solicitar que eliminemos su información personal en ciertas circunstancias",
+      "portabilityTitle": "Portabilidad de datos",
+      "portability": "Tiene derecho a recibir sus datos personales en un formato estructurado y legible por máquina"
+    },
+    "contact": {
+      "title": "¿Cómo puede contactarnos?",
+      "email": "Correo electrónico",
+      "company": "Empresa"
+    }
+  },
+  "termsOfService": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización",
+    "updateDate": "14 de agosto de 2025",
+    "intro": "Estos términos y condiciones de uso (\"Términos\") forman un acuerdo legal vinculante entre el cliente (usted) y Galileo International Capital Funds SA (\"Galileo\", \"nosotros\"). El uso de este sitio web está sujeto a los siguientes términos de uso.",
+    "agreement": "El contenido de las páginas de este sitio web es solo para su información general y uso. Está sujeto a cambios sin previo aviso.",
+    "services": {
+      "title": "Nuestros Servicios",
+      "description": "Proporcionamos servicios de agencia compradora para transacciones financieras, permitiéndole comprar, vender e intercambiar criptomonedas y otros activos de manera rápida y segura:",
+      "types": {
+        "cryptocurrency": "Compra y venta de criptomonedas",
+        "transfers": "Transferencias internacionales de fondos",
+        "escrow": "Servicios de fideicomiso y depósito en garantía",
+        "exchange": "Canje de divisas a tasas competitivas"
+      }
+    },
+    "userObligations": {
+      "title": "Obligaciones del Usuario",
+      "ageRequirement": {
+        "title": "Requisito de edad",
+        "description": "Debe tener al menos 18 años para utilizar nuestros servicios"
+      },
+      "accuracy": {
+        "title": "Información precisa",
+        "description": "Toda la información que proporcione debe ser verdadera, completa y precisa"
+      },
+      "compliance": {
+        "title": "Cumplimiento legal",
+        "description": "Debe cumplir con todas las leyes y regulaciones aplicables"
+      },
+      "security": {
+        "title": "Seguridad",
+        "description": "Es responsable de proteger sus credenciales y activos digitales"
+      }
+    },
+    "transactionProcess": {
+      "title": "Proceso de Transacción",
+      "step1": {
+        "title": "1. Solicitud de orden",
+        "description": "Envíe una solicitud de transacción especificando el monto y tipo de activo"
+      },
+      "step2": {
+        "title": "2. Verificación y confirmación",
+        "description": "Proporcionamos una cotización y procedemos una vez confirmada"
+      },
+      "step3": {
+        "title": "3. Procesamiento de pagos",
+        "description": "Procesamos su pago a través de métodos seguros y verificados"
+      },
+      "step4": {
+        "title": "4. Entrega de activos",
+        "description": "Los activos son entregados a su billetera especificada una vez completado el proceso"
+      }
+    },
+    "risks": {
+      "title": "Riesgos y Descargos de Responsabilidad",
+      "warning": "Advertencia importante sobre los riesgos:",
+      "items": {
+        "volatility": "Las criptomonedas están sujetas a extrema volatilidad de precios",
+        "regulatory": "Los cambios regulatorios pueden afectar la disponibilidad de servicios",
+        "technical": "Los riesgos técnicos pueden resultar en pérdidas",
+        "irreversible": "Todas las transacciones son irreversibles una vez completadas"
+      }
+    },
+    "fees": {
+      "title": "Tarifas y Pagos",
+      "description": "Cobramos una comisión que es un porcentaje del valor denominado de su orden:",
+      "structure": {
+        "percentage": "Las tarifas se calculan como porcentaje del valor de la transacción",
+        "variableRates": "Las tasas pueden variar según el tipo y tamaño de la transacción",
+        "transparency": "Todas las tarifas se divulgan claramente antes de proceder",
+        "paymentMethods": "Aceptamos transferencias electrónicas de fondos y otros métodos aprobados"
+      }
+    },
+    "liability": {
+      "title": "Limitación de Responsabilidad",
+      "description": "Nuestra responsabilidad está limitada al máximo permitido por la ley aplicable.",
+      "limitationAmount": "Limitamos nuestra responsabilidad agregada a USD $50 en relación con cualquier reclamo",
+      "exceptions": "Esta limitación no se aplica donde esté prohibida por la ley local"
+    },
+    "governingLaw": {
+      "title": "Ley Aplicable",
+      "jurisdiction": "Las leyes de Costa Rica rigen cualquier acuerdo formado bajo estos Términos, con registro legal adicional en Florida, EE.UU.",
+      "disputes": "Las partes se someten a la jurisdicción de los tribunales de Costa Rica como jurisdicción principal"
+    },
+    "contact": {
+      "title": "Información de Contacto",
+      "questions": "Si tiene preguntas sobre estos términos:",
+      "email": "Correo electrónico",
+      "company": "Empresa"
+    }
   }
 }

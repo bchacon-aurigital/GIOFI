@@ -20,7 +20,7 @@
   },
   "about": {
     "ctaTitle": "Manage all your digital assets with GIOFI.",
-    "ctaSubtitle": "We are partnered with Galileo Capital to provide the highest level of trust and security.",
+    "ctaSubtitle": "We work jointly with the Central Bank of Costa Rica and are legally registered in Costa Rica to provide the highest level of trust and security.",
     "startButton": "Start",
     "partnerButton": "Galileo Capital",
     "dropdown": {
@@ -51,7 +51,7 @@
       "privacyPolicy": "Privacy Policy",
       "termsOfService": "Terms of Service"
     },
-    "copyright": "2024 GalileoFi. All Rights Reserved.",
+    "copyright": "2025 GalileoFi. All Rights Reserved.",
     "design": {
       "credit": "Design and Development by :",
       "aurigitalAlt": "aurigital logo"
@@ -125,5 +125,172 @@
     "titleImageAlt": "Partner with GIOFI and Experience the New Era of Financial Management",
     "titleImage": "/assets/fonts/PARTNER WITH giofi AND EXPERIENCE THE NEW ERA OF FINANCIAL MANAGEMENT.svg",
     "animationAlt": "Financial Animation"
+  },
+  "common": {
+    "backToHome": "Back to Home",
+    "allRightsReserved": "All Rights Reserved"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "updateDate": "August 14, 2025",
+    "intro": "This privacy notice for Galileo International Capital Funds SA (\"Company\", \"we\", \"us\", or \"our\") describes how and why we might collect, store, use, and/or share (\"process\") your information when you use our services.",
+    "contact": "If you have questions or concerns, reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at info@galileocapital.io.",
+    "summaryTitle": "Summary of Key Points",
+    "summary": {
+      "personalInfoTitle": "What personal information do we process?",
+      "personalInfo": "When you visit, use, or navigate our Services, we may process personal information depending on how you interact with our Services, the choices you make, and the products and features you use.",
+      "sensitiveInfoTitle": "Do we process any sensitive personal information?",
+      "sensitiveInfo": "We may process sensitive personal information when necessary with your consent or as otherwise permitted by applicable law.",
+      "thirdPartyTitle": "Do we receive any information from third parties?",
+      "thirdParty": "We may receive information from public databases, marketing partners, social media platforms, and other outside sources.",
+      "securityTitle": "How do we keep your information safe?",
+      "security": "We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission can be guaranteed to be 100% secure."
+    },
+    "informationCollection": {
+      "title": "What information do we collect?",
+      "personalDataTitle": "Personal information you disclose to us",
+      "personalDataDesc": "We collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.",
+      "dataTypes": {
+        "names": "Names",
+        "phones": "Phone numbers",
+        "emails": "Email addresses",
+        "addresses": "Home addresses",
+        "walletAddresses": "Wallet addresses"
+      },
+      "sensitiveDataTitle": "Sensitive Information",
+      "sensitiveDataDesc": "When necessary, with your consent or as otherwise permitted by applicable law, we process the following categories of sensitive information:",
+      "sensitiveTypes": {
+        "government": "Social security numbers or other government identifiers",
+        "financial": "Financial data",
+        "biometric": "Biometric data"
+      }
+    },
+    "informationProcessing": {
+      "title": "How do we process your information?",
+      "description": "We process your personal information for a variety of reasons, depending on how you interact with our Services, including:",
+      "purposes": {
+        "accountManagement": "To facilitate account creation and authentication and otherwise manage user accounts",
+        "orderFulfillment": "To fulfill and manage your orders, payments, returns, and exchanges",
+        "fraudPrevention": "To detect and prevent fraud and/or funds loss",
+        "customerService": "To provide customer service when you contact us to resolve questions or disputes",
+        "legalCompliance": "To maintain legal and regulatory compliance"
+      }
+    },
+    "informationSharing": {
+      "title": "When and with whom do we share personal information?",
+      "description": "We may share information in specific situations and with specific third parties, including:",
+      "thirdPartyTitle": "Third-party service providers",
+      "passbase": "To verify your identity by determining whether a selfie you take matches the photo in your government-issued identity document",
+      "jotform": "To safeguard your personal data, including full name, address, date of birth, financial information, and signature"
+    },
+    "yourRights": {
+      "title": "What are your rights?",
+      "accessTitle": "Right to access",
+      "access": "You have the right to request access to the personal information we hold about you",
+      "correctionTitle": "Right to correction",
+      "correction": "You may request that we correct any inaccurate or incomplete personal information",
+      "deletionTitle": "Right to deletion",
+      "deletion": "You may request that we delete your personal information in certain circumstances",
+      "portabilityTitle": "Data portability",
+      "portability": "You have the right to receive your personal data in a structured, machine-readable format"
+    },
+    "contact": {
+      "title": "How can you contact us?",
+      "email": "Email",
+      "company": "Company"
+    }
+  },
+  "termsOfService": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated",
+    "updateDate": "August 14, 2025",
+    "intro": "These terms and conditions of use (\"Terms\") form a binding legal agreement between the customer (you) and Galileo International Capital Funds SA (\"Galileo\", \"we\", \"us\", \"our\"). The use of this website is subject to the following terms of use.",
+    "agreement": "The content of the pages of this website is for your general information and use only. It is subject to change without notice.",
+    "services": {
+      "title": "Our Services",
+      "description": "We provide buyer's agency services for financial transactions, allowing you to quickly and easily buy, sell, and trade cryptocurrencies and other assets securely:",
+      "types": {
+        "cryptocurrency": "Cryptocurrency buying and selling",
+        "transfers": "International fund transfers",
+        "escrow": "Trust and escrow services",
+        "exchange": "Currency exchange at competitive rates"
+      }
+    },
+    "userObligations": {
+      "title": "User Obligations",
+      "ageRequirement": {
+        "title": "Age requirement",
+        "description": "You must be at least 18 years old to use our services"
+      },
+      "accuracy": {
+        "title": "Accurate information",
+        "description": "All information you provide must be true, complete, and accurate"
+      },
+      "compliance": {
+        "title": "Legal compliance",
+        "description": "You must comply with all applicable laws and regulations"
+      },
+      "security": {
+        "title": "Security",
+        "description": "You are responsible for protecting your credentials and digital assets"
+      }
+    },
+    "transactionProcess": {
+      "title": "Transaction Process",
+      "step1": {
+        "title": "1. Order request",
+        "description": "Submit a transaction request specifying the amount and type of asset"
+      },
+      "step2": {
+        "title": "2. Verification and confirmation",
+        "description": "We provide a quote and proceed once confirmed"
+      },
+      "step3": {
+        "title": "3. Payment processing",
+        "description": "We process your payment through secure and verified methods"
+      },
+      "step4": {
+        "title": "4. Asset delivery",
+        "description": "Assets are delivered to your specified wallet once the process is complete"
+      }
+    },
+    "risks": {
+      "title": "Risks and Disclaimers",
+      "warning": "Important warning about risks:",
+      "items": {
+        "volatility": "Cryptocurrencies are subject to extreme price volatility",
+        "regulatory": "Regulatory changes may affect service availability",
+        "technical": "Technical risks may result in losses",
+        "irreversible": "All transactions are irreversible once completed"
+      }
+    },
+    "fees": {
+      "title": "Fees and Payments",
+      "description": "We charge a commission that is a percentage of the denominated value of your order:",
+      "structure": {
+        "percentage": "Fees are calculated as a percentage of transaction value",
+        "variableRates": "Rates may vary based on transaction type and size",
+        "transparency": "All fees are clearly disclosed before proceeding",
+        "paymentMethods": "We accept electronic fund transfers and other approved methods"
+      }
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "description": "Our liability is limited to the maximum extent permitted by applicable law.",
+      "limitationAmount": "We limit our aggregate liability to USD $50 in relation to any claim",
+      "exceptions": "This limitation does not apply where prohibited by local law"
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "jurisdiction": "The laws of Costa Rica govern any agreement formed under these Terms, with additional legal registration in Florida, USA",
+      "disputes": "The parties submit to the jurisdiction of the courts of Costa Rica as the primary jurisdiction"
+    },
+    "contact": {
+      "title": "Contact Information",
+      "questions": "If you have questions about these terms:",
+      "email": "Email",
+      "company": "Company"
+    }
   }
 }

@@ -161,14 +161,22 @@ ${message}
       </div>
 
       {/* Línea divisoria y información legal */}
-      <div className="border-t border-white/30 py-[3%] flex flex-col lg:flex-row justify-between items-center gap-4">
-        <div className="flex flex-col items-center lg:items-start gap-4">
-          <p className="text-[16px] lg:text-[18px] leading-[27px] text-center lg:text-start text-white/90">
-            {t("footer.copyright")}
-          </p>
-          <div className="flex justify-center lg:justify-start space-x-6">
+      <div className="border-t border-white/30 py-[3%] flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-4">
+          <div className="text-center">
+            <p className="text-[16px] lg:text-[18px] leading-[27px] text-white/90 mb-2">
+              {t("footer.copyright")}
+            </p>
+            <p className="text-[14px] text-white/70 mb-1">
+              Centro Comercial Distrito 4, Oficina 310
+            </p>
+            <p className="text-[14px] text-white/70">
+              San José, Costa Rica
+            </p>
+          </div>
+          <div className="flex justify-center space-x-6">
             <a
-              href="/docs/privacy-policy.pdf"
+              href="/privacy-policy"
               target="_blank"
               rel="noopener noreferrer"
               className="underline text-[12px] text-white/70 hover:text-[#28C0F5] transition-colors duration-300"
@@ -176,7 +184,7 @@ ${message}
               {t("footer.legal.privacyPolicy")}
             </a>
             <a
-              href="/docs/terms-of-service.pdf"
+              href="/terms-of-service"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[12px] text-white/70 underline hover:text-[#28C0F5] transition-colors duration-300"
@@ -184,38 +192,6 @@ ${message}
               {t("footer.legal.termsOfService")}
             </a>
           </div>
-        </div>
-
-        {/* Iconos de redes sociales */}
-        <div className="flex gap-4 items-center">
-          <a href="#" aria-label="Facebook" className="group">
-            <img
-              alt="Facebook"
-              src="/assets/Icons/Facebook.svg"
-              className="cursor-pointer hover:scale-110 duration-300 group-hover:opacity-80"
-            />
-          </a>
-          <a href="#" aria-label="Instagram" className="group">
-            <img
-              alt="Instagram"
-              src="/assets/Icons/Instagram.svg"
-              className="cursor-pointer hover:scale-110 duration-300 group-hover:opacity-80"
-            />
-          </a>
-          <a href="#" aria-label="Twitter" className="group">
-            <img
-              alt="Twitter"
-              src="/assets/Icons/Twitter.svg"
-              className="cursor-pointer hover:scale-110 duration-300 group-hover:opacity-80"
-            />
-          </a>
-          <a href="#" aria-label="LinkedIn" className="group">
-            <img
-              alt="Linkedin"
-              src="/assets/Icons/linkedin.svg"
-              className="cursor-pointer hover:scale-110 duration-300 group-hover:opacity-80"
-            />
-          </a>
         </div>
       </div>
 
