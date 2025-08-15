@@ -2,6 +2,7 @@
 import React, { useState, useCallback, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import dynamic from "next/dynamic";
+import ContactModal from "./ContactModal";
 
 // Componente Lottie personalizado
 const LottieAnimation = dynamic(() => import("./LottieAnimation"), { 
@@ -17,6 +18,8 @@ const Hero = () => {
   const [dropdownOpen2, setDropdownOpen2] = useState(false);
   const [animationData, setAnimationData] = useState(null);
   const [animationError, setAnimationError] = useState(false);
+  const [contactModalOpen, setContactModalOpen] = useState(false);
+  const [contactType, setContactType] = useState("individual");
 
   const navItems = t("hero.nav", { returnObjects: true });
   const svgPaths = t("hero.svg", { returnObjects: true });
@@ -53,6 +56,13 @@ const Hero = () => {
   const toggleDropdown2 = useCallback(() => {
     setDropdownOpen2(prev => !prev);
     setDropdownOpen1(false);
+  }, []);
+
+  const handleContactClick = useCallback((type) => {
+    setContactType(type);
+    setContactModalOpen(true);
+    setDropdownOpen1(false);
+    setDropdownOpen2(false);
   }, []);
 
   const closeDropdowns = useCallback(() => {
@@ -103,22 +113,18 @@ const Hero = () => {
             </button>
             {dropdownOpen1 && (
               <div className="absolute top-full mt-2 bg-white rounded-lg shadow-xl z-20 min-w-[200px] border border-gray-200">
-                <a
-                  href="https://form.jotform.com/242172184154452"
-                  className="block px-4 py-3 text-black hover:bg-[#28C0F5] hover:text-white transition-colors duration-200 rounded-t-lg"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <button
+                  onClick={() => handleContactClick("individual")}
+                  className="block w-full text-left px-4 py-3 text-black hover:bg-[#28C0F5] hover:text-white transition-colors duration-200 rounded-t-lg"
                 >
                   {t("hero.dropdown.individual")}
-                </a>
-                <a
-                  href="https://form.jotform.com/242172269063455"
-                  className="block px-4 py-3 text-black hover:bg-[#28C0F5] hover:text-white transition-colors duration-200 rounded-b-lg"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                </button>
+                <button
+                  onClick={() => handleContactClick("business")}
+                  className="block w-full text-left px-4 py-3 text-black hover:bg-[#28C0F5] hover:text-white transition-colors duration-200 rounded-b-lg"
                 >
                   {t("hero.dropdown.business")}
-                </a>
+                </button>
               </div>
             )}
           </div>
@@ -214,22 +220,18 @@ const Hero = () => {
               </button>
               {dropdownOpen2 && (
                 <div className="absolute top-full mt-2 bg-white rounded-lg shadow-xl z-20 min-w-[200px] border border-gray-200">
-                  <a
-                    href="https://form.jotform.com/242172184154452"
-                    className="block px-4 py-3 text-black hover:bg-[#28C0F5] hover:text-white transition-colors duration-200 rounded-t-lg"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    onClick={() => handleContactClick("individual")}
+                    className="block w-full text-left px-4 py-3 text-black hover:bg-[#28C0F5] hover:text-white transition-colors duration-200 rounded-t-lg"
                   >
                     {t("hero.dropdown.individual")}
-                  </a>
-                  <a
-                    href="https://form.jotform.com/242172269063455"
-                    className="block px-4 py-3 text-black hover:bg-[#28C0F5] hover:text-white transition-colors duration-200 rounded-b-lg"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  </button>
+                  <button
+                    onClick={() => handleContactClick("business")}
+                    className="block w-full text-left px-4 py-3 text-black hover:bg-[#28C0F5] hover:text-white transition-colors duration-200 rounded-b-lg"
                   >
                     {t("hero.dropdown.business")}
-                  </a>
+                  </button>
                 </div>
               )}
             </div>
@@ -247,6 +249,13 @@ const Hero = () => {
           </div>
         </div>
       </section>
+      
+      {/* Contact Modal */}
+      <ContactModal
+        isOpen={contactModalOpen}
+        onClose={() => setContactModalOpen(false)}
+        type={contactType}
+      />
     </div>
   );
 };

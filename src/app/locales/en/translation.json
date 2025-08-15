@@ -51,7 +51,7 @@
       "privacyPolicy": "Privacy Policy",
       "termsOfService": "Terms of Service"
     },
-    "copyright": "2025 GalileoFi. All Rights Reserved.",
+    "copyright": "2025 GIO CAPITAL GROUP S.A. (ID: 3-101-854846) - GIOFI. All Rights Reserved.",
     "design": {
       "credit": "Design and Development by :",
       "aurigitalAlt": "aurigital logo"
@@ -134,7 +134,7 @@
     "title": "Privacy Policy",
     "lastUpdated": "Last updated",
     "updateDate": "August 14, 2025",
-    "intro": "This privacy notice for Galileo International Capital Funds SA (\"Company\", \"we\", \"us\", or \"our\") describes how and why we might collect, store, use, and/or share (\"process\") your information when you use our services.",
+    "intro": "This privacy notice for GIO CAPITAL GROUP SOCIEDAD ANONIMA (ID: 3-101-854846), operating as GIOFI, formerly known as Galileo International Capital Funds SA (\"Company\", \"we\", \"us\", or \"our\") describes how and why we might collect, store, use, and/or share (\"process\") your information when you use our services.",
     "contact": "If you have questions or concerns, reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at info@galileocapital.io.",
     "summaryTitle": "Summary of Key Points",
     "summary": {
@@ -198,14 +198,14 @@
     "contact": {
       "title": "How can you contact us?",
       "email": "Email",
-      "company": "Company"
+      "company": "GIO CAPITAL GROUP SOCIEDAD ANONIMA (ID: 3-101-854846)"
     }
   },
   "termsOfService": {
     "title": "Terms of Service",
     "lastUpdated": "Last updated",
     "updateDate": "August 14, 2025",
-    "intro": "These terms and conditions of use (\"Terms\") form a binding legal agreement between the customer (you) and Galileo International Capital Funds SA (\"Galileo\", \"we\", \"us\", \"our\"). The use of this website is subject to the following terms of use.",
+    "intro": "These terms and conditions of use (\"Terms\") form a binding legal agreement between the customer (you) and GIO CAPITAL GROUP SOCIEDAD ANONIMA (ID: 3-101-854846), operating as GIOFI, formerly known as Galileo International Capital Funds SA (\"Galileo\", \"we\", \"us\", \"our\"). The use of this website is subject to the following terms of use.",
     "agreement": "The content of the pages of this website is for your general information and use only. It is subject to change without notice.",
     "services": {
       "title": "Our Services",
@@ -290,7 +290,35 @@
       "title": "Contact Information",
       "questions": "If you have questions about these terms:",
       "email": "Email",
-      "company": "Company"
+      "company": "GIO CAPITAL GROUP SOCIEDAD ANONIMA (ID: 3-101-854846)"
     }
+  },
+  "contactModal": {
+    "title": "Contact GIOFI",
+    "subject": "GIOFI Inquiry",
+    "individual": "Individual",
+    "business": "Business",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "GIO CAPITAL GROUP SOCIEDAD ANONIMA (ID: 3-101-854846)",
+      "message": "Message",
+      "type": "Client type"
+    },
+    "placeholders": {
+      "name": "Enter your full name",
+      "email": "example@email.com",
+      "phone": "+1 234 567 8900",
+      "company": "Your company name",
+      "message": "Describe your inquiry or interest in our services..."
+    },
+    "send": "Send Inquiry",
+    "sending": "Sending...",
+    "cancel": "Cancel",
+    "success": "Inquiry sent successfully! Your email client will open.",
+    "closeHint": "Press ESC or click outside the form to close",
+    "error": "Please complete all required fields (*)",
+    "errorSending": "Error sending inquiry. Please try again."
   }
 }

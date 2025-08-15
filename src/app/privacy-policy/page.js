@@ -227,7 +227,7 @@ export default function PrivacyPolicy() {
         <footer className="bg-gray-900 text-white py-8 mt-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p className="text-gray-400">
-              © 2024 GIOFI - Galileo International Capital Funds SA. {t("common.allRightsReserved")}
+              © 2025 GIO CAPITAL GROUP S.A. (ID: 3-101-854846) - GIOFI. {t("common.allRightsReserved")}
             </p>
           </div>
         </footer>

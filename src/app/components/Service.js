@@ -3,10 +3,13 @@ import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ContactModal from "./ContactModal";
 
 const Service = () => {
   const { t } = useTranslation();
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [contactModalOpen, setContactModalOpen] = useState(false);
+  const [contactType, setContactType] = useState("individual");
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -14,6 +17,12 @@ const Service = () => {
 
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
+  };
+
+  const handleContactClick = (type) => {
+    setContactType(type);
+    setContactModalOpen(true);
+    setDropdownOpen(false);
   };
 
   return (
@@ -44,22 +53,18 @@ const Service = () => {
             </button>
             {dropdownOpen && (
               <div className="absolute top-full mt-2 bg-white rounded-lg shadow-lg z-10">
-                <a
-                  href="https://form.jotform.com/242172184154452"
-                  className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <button
+                  onClick={() => handleContactClick("individual")}
+                  className="block w-full text-left px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
                 >
                   {t("service.dropdown.individual")}
-                </a>
-                <a
-                  href="https://form.jotform.com/242172269063455"
-                  className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                </button>
+                <button
+                  onClick={() => handleContactClick("business")}
+                  className="block w-full text-left px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
                 >
                   {t("service.dropdown.business")}
-                </a>
+                </button>
               </div>
             )}
           </div>
@@ -77,6 +82,13 @@ const Service = () => {
           />
         </div>
       </div>
+      
+      {/* Contact Modal */}
+      <ContactModal
+        isOpen={contactModalOpen}
+        onClose={() => setContactModalOpen(false)}
+        type={contactType}
+      />
     </div>
   );
 };
