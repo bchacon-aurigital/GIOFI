@@ -39,8 +39,12 @@ const Hero = () => {
     loadAnimation();
   }, []);
 
-  const handleNavClick = useCallback((index, sectionId) => {
+  const handleNavClick = useCallback((index) => {
     setActiveIndex(index);
+    // Mapeo fijo de índices a IDs de secciones (siempre en español)
+    const sectionIds = ['inicio', 'características', 'solución', 'proceso', 'nosotros'];
+    const sectionId = sectionIds[index];
+    
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -94,7 +98,7 @@ const Hero = () => {
                   className={`nav-item transition-all duration-300 hover:scale-105 ${
                     activeIndex === index ? "text-white" : "text-white/70 text-[16px] hover:text-white"
                   }`}
-                  onClick={() => handleNavClick(index, item.toLowerCase().replace(/ /g, "-"))}
+                  onClick={() => handleNavClick(index)}
                 >
                   {item}
                 </li>
@@ -156,7 +160,7 @@ const Hero = () => {
                 <li
                   key={index}
                   className="nav-item hover:text-[#28C0F5] transition-colors duration-200"
-                  onClick={() => handleNavClick(index, item.toLowerCase().replace(/ /g, "-"))}
+                  onClick={() => handleNavClick(index)}
                 >
                   {item}
                 </li>

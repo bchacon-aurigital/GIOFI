@@ -17,7 +17,17 @@ const Footer = () => {
   }, []);
 
   const handleSmoothScroll = (sectionId) => {
-    const element = document.getElementById(sectionId);
+    // Mapeo de nombres de sección a IDs fijos (siempre en español)
+    const sectionMap = {
+      'inicio': 'inicio',
+      'características': 'características', 
+      'solución': 'solución',
+      'proceso': 'proceso',
+      'nosotros': 'nosotros'
+    };
+    
+    const actualSectionId = sectionMap[sectionId] || sectionId;
+    const element = document.getElementById(actualSectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }

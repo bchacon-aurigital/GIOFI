@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Rewrite for privacy-policy
+RewriteRule ^privacy-policy/?$ /privacy-policy.html [L]
+
+# Rewrite for terms-of-service  
+RewriteRule ^terms-of-service/?$ /terms-of-service.html [L]
+
+# Fallback to index for all other routes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /index.html [L]

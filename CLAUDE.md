@@ -97,3 +97,19 @@ useEffect(() => {
 - The build process creates a static site suitable for CDN deployment
 - Navigation is handled via smooth scrolling to section IDs within the single page
 - Contact forms and external integrations are prepared for services like JotForm and Sumsub
+
+## Routing & Navigation
+
+### Section Navigation
+- All section IDs are fixed in Spanish: `inicio`, `características`, `solución`, `proceso`, `nosotros`
+- Navigation works consistently across both languages
+- Hero.js and Footer.js components use hardcoded section ID mapping for reliable scrolling
+
+### Static Routes
+- `/privacy-policy` - Privacy Policy page (generated as privacy-policy.html)
+- `/terms-of-service` - Terms of Service page (generated as terms-of-service.html)
+- `.htaccess` file in public/ handles URL rewriting for production deployment
+
+### Known Issues Fixed
+1. **Navigation in English**: Fixed by using consistent Spanish section IDs instead of dynamic language-based IDs
+2. **404 on legal pages**: Fixed by adding .htaccess with proper URL rewriting rules
